@@ -1,0 +1,30 @@
+# Environment variables (API Keys)
+.env
+.env.*
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+tools/__pycache__/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Generated Travel Plan Outputs
+travel_plans/
+*.md
+!README.md
+!TODO.md
+
+# Logs & Databases
+*.log
+*.sqlite
+*.sqlite3
+
+# IDE Settings
+.vscode/
+.idea/
+.DS_Store
